@@ -112,3 +112,23 @@ align-items: center;
 
 
 }
+
+
+
+
+
+#logo {
+  margin-bottom: 24px; 
+  padding: 12px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.logotrble {
+  width: 250px;
+}
+
+
+
+
+
+
