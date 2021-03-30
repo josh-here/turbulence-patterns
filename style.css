@@ -1,0 +1,19 @@
+html, body {
+	 height: 100%;
+	 margin: 0;
+	 padding: 0;
+	 overflow: hidden;
+}
+ body {
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 background: #92d9cb;
+}
+ .scene {
+	 width: 80vw;
+	 height: 80vh;
+}
+ svg * {
+	 transform: translate3d(0, 0, 0);
+}

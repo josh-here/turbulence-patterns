@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A generative SVG poster with a turbulence filter</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<svg class="scene" xmlns="http://www.w3.org/2000/svg" aria-labelledby="svgTitle svgDesc" role="img" preserveAspectRatio="xMidYMid meet" id="illustration">
+	<title id="svgTitle">A generative illustration</title>
+	<desc id="svgDesc">Click on the image to redraw it!</desc>
+	<defs>
+		<filter id="squiggly">
+			<feTurbulence id="turbulence" baseFrequency="0.015" numOctaves="5" result="noise" seed="0"/>
+			<feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="5" />
+		</filter>
+	</defs>
+	<g filter="url(#squiggly)"></g>
+</svg>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
