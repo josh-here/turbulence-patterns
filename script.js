@@ -1,5 +1,5 @@
 function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}const settings = {
-  colors: ["#92D9CB", "#51A2CD", "#475795", "#E7617C", "#F8A1A1", "#F6D9B2"] };
+  colors: ["#2F62B5", "#E3E7EB", "#00CDF7", "#FFDA00", "#FF5231", "#FFFFFF"] };
 
 
 const utils = {
