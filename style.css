@@ -50,11 +50,12 @@ svg * {
   line-height: 46px;
   left: 314px;
   top: 143px;
-  background: #06B6D4;
+  background: #3B82F6;
   color: #fff;
   border-radius: 12px;
   border: none;
   cursor: pointer;
+  margin: 6px;
  
 
 }
@@ -74,12 +75,13 @@ svg * {
   line-height: 46px;
   left: 314px;
   top: 143px;
-  background: #0891B2;
+  background: #2563EB;
   color: #fff;
   border-radius: 12px;
   border: none;
   cursor: pointer;
   transition: 0.5s all;
+  margin: 6px;
 
 
 
@@ -91,15 +93,307 @@ svg * {
 
 #btn_export_svg:focus {
 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  line-height: 46px;
+  left: 314px;
+  top: 143px;
+  background: #2563EB;
+  color: #fff;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+
 outline: none;
-padding: 4px;
+/*padding: 4px;*/
 box-shadow: 
-  0 0 0 2.5px #fff,
-  0 0 0 6px #0891B2;
+ /* 0 0 0 2.5px #fff,*/
+  0 0 0 6px #2563EB23;
   transition: 0.5s all;
+  margin: 6px;
 
 
 }
+
+
+
+
+
+
+
+#btn_export_png {
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  line-height: 46px;
+  left: 314px;
+  top: 143px;
+  background: #EC4899;
+  color: #fff;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  margin: 6px;
+ 
+
+}
+
+
+
+
+
+#btn_export_png:hover {
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  line-height: 46px;
+  left: 314px;
+  top: 143px;
+  background: #DB2777;
+  color: #fff;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s all;
+  margin: 6px;
+
+
+
+}
+
+
+
+
+
+#btn_export_png:focus {
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  line-height: 46px;
+  left: 314px;
+  top: 143px;
+  background: #DB2777;
+  color: #fff;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;  
+outline: none;
+/*padding: 4px;*/
+box-shadow: 
+ /* 0 0 0 2.5px #fff,*/
+  0 0 0 6px #db277834;
+  transition: 0.5s all;
+  margin: 6px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#btn_export_jpeg {
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  line-height: 46px;
+  left: 314px;
+  top: 143px;
+  background: #6366F1;
+  color: #fff;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  margin: 6px;
+ 
+
+}
+
+
+
+
+
+#btn_export_jpeg:hover {
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  line-height: 46px;
+  left: 314px;
+  top: 143px;
+  background: #4F46E5;
+  color: #fff;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s all;
+  margin: 6px;
+
+
+
+}
+
+
+
+
+
+#btn_export_jpeg:focus {
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  line-height: 46px;
+  left: 314px;
+  top: 143px;
+  background: #4F46E5;
+  color: #fff;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;  
+outline: none;
+/*padding: 4px;*/
+box-shadow: 
+ /* 0 0 0 2.5px #fff,*/
+  0 0 0 6px #4e46e528;
+  transition: 0.5s all;
+  margin: 6px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#btn_copy_svg {
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  line-height: 46px;
+  left: 314px;
+  top: 143px;
+  background: #14B8A6;
+  color: #fff;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  margin: 6px;
+ 
+
+}
+
+
+
+
+
+#btn_copy_svg:hover {
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  line-height: 46px;
+  left: 314px;
+  top: 143px;
+  background: #0D9488;
+  color: #fff;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s all;
+  margin: 6px;
+
+
+
+}
+
+
+
+
+
+#btn_copy_svg:focus {
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  line-height: 46px;
+  left: 314px;
+  top: 143px;
+  background: #0D9488;
+  color: #fff;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;  
+outline: none;
+/*padding: 4px;*/
+box-shadow: 
+ /* 0 0 0 2.5px #fff,*/
+  0 0 0 6px #0d948925;
+  transition: 0.5s all;
+  margin: 6px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -116,6 +410,21 @@ align-items: center;
 
 
 
+#btns {
+
+display: inline-flex;
+flex-direction: row;
+
+
+}
+
+
+
+
+
+
+
+
 
 #logo {
   margin-bottom: 24px; 
@@ -126,9 +435,3 @@ align-items: center;
 .logotrble {
   width: 250px;
 }
-
-
-
-
-
-
